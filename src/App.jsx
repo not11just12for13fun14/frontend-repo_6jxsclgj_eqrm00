@@ -2,6 +2,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Services from './components/Services'
 import Approach from './components/Approach'
+import Audits from './components/Audits'
 import CTA from './components/CTA'
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <Hero />
         <Services />
         <Approach />
+        <Audits />
         <CTA />
       </main>
       <footer className="py-10 border-t border-black/5 text-sm text-gray-600">

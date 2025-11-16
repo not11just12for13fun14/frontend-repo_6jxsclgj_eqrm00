@@ -6,7 +6,7 @@ export default function Navbar() {
   const navItems = [
     { label: "Services", href: "#services" },
     { label: "Approach", href: "#approach" },
-    { label: "Work", href: "#work" },
+    { label: "Audits", href: "#audits" },
     { label: "Contact", href: "#contact" },
   ];
 
@@ -35,7 +35,7 @@ export default function Navbar() {
             </a>
           </div>
 
-          <button className="md:hidden inline-flex items-center justify-center h-10 w-10 rounded-md border border-black/10" onClick={() => setOpen((v) => !v)}>
+          <button aria-label="Toggle menu" className="md:hidden inline-flex items-center justify-center h-10 w-10 rounded-md border border-black/10" onClick={() => setOpen((v) => !v)}>
             <Menu size={20} />
           </button>
         </div>
